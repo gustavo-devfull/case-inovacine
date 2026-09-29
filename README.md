@@ -7,21 +7,21 @@ Página de portfólio de Gustavo Santos sobre o projeto InovaCine, com foco na a
 Este repositório contém uma página estática em HTML, CSS e JavaScript, sem dependências de build.
 
 ```bash
-python -m http.server 8000 --directory dist
+python -m http.server 8000
 ```
 
 Abra http://localhost:8000 no navegador.
 
 ## Estrutura
 
-- `dist/index.html`: conteúdo e estrutura da página.
-- `dist/style.css`: identidade visual e layout responsivo.
-- `dist/app.js`: abas de conteúdo e comparação de processos.
-- `dist/assets/inovacine-home.jpg`: captura real da interface do projeto.
+- `index.html`: conteúdo e estrutura da página.
+- `style.css`: identidade visual e layout responsivo.
+- `app.js`: abas de conteúdo e comparação de processos.
+- `assets/inovacine-home.jpg`: captura real da interface do projeto.
 
 ## Publicação
 
-Use `dist` como diretório de publicação em uma hospedagem de arquivos estáticos. Não há comando de build obrigatório.
+Use a raiz do repositório (`.`) como diretório de publicação em uma hospedagem de arquivos estáticos. Não há comando de build obrigatório.
 
 ## Sobre o case
 
